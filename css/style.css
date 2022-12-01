@@ -210,9 +210,10 @@ hr {
   padding: 40px 0;
 }
 #footer .footer--start {
-  padding: 90px 0 0px 0;
+  padding: 90px 0 20px 0;
   display: flex;
   align-items: flex-end;
+  flex-flow: wrap;
 }
 #footer .footer--start h1 {
   font-weight: 900;
@@ -229,10 +230,11 @@ hr {
   color: #666666;
 }
 #footer .footer--center {
-  padding-bottom: 50px;
+  padding: 30px 0 30px 0;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 #footer .footer--center__nav p {
   font-weight: 400;
